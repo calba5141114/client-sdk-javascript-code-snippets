@@ -1,2 +1,4 @@
-new ConversationClient({debug: false})
-    .login(userToken);
+const conversationClient = new ConversationClient({ debug: false });
+conversationClient.login(userToken).then(application => {
+
+});

@@ -1,1 +1,1 @@
-conversation.members.get(member_id).earmuff(true);
+conversation.me.earmuff(true);
